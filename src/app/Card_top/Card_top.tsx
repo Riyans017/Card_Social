@@ -1,18 +1,6 @@
 "use server";
 import Image from 'next/image';
 import Person from '../../../public/person.jpeg'
-import VideoCam from '../../../public/videocam-outline.svg';
-import Happy from '../../../public/happy-outline.svg';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-  } from "@/components/ui/card";
-
-  import Profile from '../Profile/Profile';
   import Link from 'next/link';
   import Images from '../../../public/images-outline.svg';
 function Card_top() {
