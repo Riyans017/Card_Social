@@ -39,9 +39,9 @@ function Cards() {
       alt="person title"
     />
     <div className="ml-2 flex flex-col">
-        <div className="text-[0.9rem] font-semibold w-full">
-          <p>Shree Mahunyal secondary school</p>
-        </div>
+        
+          <p className="text-[0.9rem] font-semibold w-full">Shree Mahunyal secondary school</p>
+       
         <div className="p-0 m-0 box-border">
           <span className="text-start font-light text-[0.8rem] ">
             10pm
@@ -50,13 +50,14 @@ function Cards() {
     </div>
   </CardTitle>
   <CardDescription className="ml-1 text-black">
-    <p className="mb-1">
+    <span className="mb-1">
       Met after a long time so good to see each other
-    </p>
+    </span>
+   
+    
     <Image
       className="w-[100%] rounded-[6px] h-[40%] lg:object-cover lg:w-full "
       src={Flower}
-
       alt="photo of flower"
     />
   </CardDescription>
