@@ -6,7 +6,9 @@ export default function Home() {
      <>
      <Card_top/>
      <Cards/>
-    
+     <Cards/>
+     <Cards/>
+     <Cards/>
      </>
   );
 }
